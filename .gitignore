@@ -1,0 +1,34 @@
+# Large local assets (see MANIFEST.md for setup)
+data/
+downloads/
+outputs/
+logs/
+
+# Model checkpoints exceed GitHub 100MB file limit
+pretrained/**/*.pt
+pretrained/**/*.pth
+pretrained/**/*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Backup / temp
+*.bak
+*.swp
+*~
+
+# IDE / agent tooling
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
